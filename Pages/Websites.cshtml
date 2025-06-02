@@ -1,0 +1,118 @@
+﻿@page
+@model WebsitesModel
+@{
+    ViewData["Title"] = "Websites";
+}
+<h3>@ViewData["Title"]</h3>
+
+
+<div id="Grid" class="spinner-grid nu-auto-height nu-height-offset-250"></div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var grid = new ej.grids.Grid({
+                dataSource: @Html.Raw(Json.Serialize(Model.Websites)),
+                columns: [
+                    { field: 'id', isPrimaryKey: true, visible: false },
+                    { field: 'name', headerText: 'Name', width: 150 },
+                    { field: 'description', headerText: 'Description', width: 250 },
+                    { field: 'websiteURL', headerText: 'Website URL', width: 200 },
+                    { field: 'consumerKey', headerText: 'Consumer Key', width: 200 },
+                    { field: 'consumerSecret', headerText: 'Consumer Secret', width: 200 },
+                    {
+                        headerText: 'Actions',
+                        template: `<button class="e-btn e-secondary" onclick="pushProducts(\${catalogId}, this)">Push Products</button>`,
+                        textAlign: 'Center',
+                        width: 150
+                    }
+                ],
+                toolbar: ['Add', 'Edit', 'Delete', 'Update', 'Cancel'],
+                editSettings: {
+                    allowAdding: true,
+                    allowEditing: true,
+                    allowDeleting: true,
+                    mode: 'Dialog'
+                },
+                allowPaging: true,
+                pageSettings: { pageSize: 10 },
+                actionBegin: onActionBegin
+            });
+            grid.appendTo('#Grid');
+        });
+
+        function onActionBegin(args) {
+
+            console.dir("args:", args);
+            if (args.requestType === 'save' && args.action === 'add') {
+                args.cancel = true; // Cancel default grid behavior
+
+                const website = args.data;
+
+                fetch('/api/Websites/Add', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(website)
+                })
+                .then(response => {
+                    if (!response.ok) throw new Error("Network error");
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success) {
+                        alert(data.message);
+                        location.reload(); // Optional: Replace with grid.refresh() to avoid full reload
+                    } else {
+                        alert("Add failed: " + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Add failed', error);
+                    alert('Error adding record');
+                });
+            }
+        }
+
+        function pushProducts(catalogId, button) {
+
+            Swal.fire({
+                title: 'Are you sure?',
+                text: 'Do you want to push products to this website?',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Yes, push them!',
+                cancelButtonText: 'Cancel'
+            }).then((result) => {
+                if (result.isConfirmed) {
+
+                    const originalHtml = button.innerHTML;
+                    button.disabled = true;
+                    button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Pushing...';
+                    
+                    fetch('/api/push/product', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ catalogId })
+                    })
+                    .then(res => res.text())
+                    .then(msg => {
+                        Swal.fire('Success', msg, 'success');
+                    })
+                    .catch(err => {
+                        Swal.fire('Error', 'Something went wrong: ' + err, 'error');
+                    })
+                    .finally(() => {
+                        button.disabled = false;
+                        button.innerHTML = originalHtml;
+                    });
+                }
+            });
+        }
+
+
+    </script>
+}

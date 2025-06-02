@@ -1,0 +1,17 @@
+﻿@page
+@model TestWordPressDBModel
+
+<h2>WooCommerce Product Titles</h2>
+
+<ul>
+    @foreach (var title in Model.ProductTitles)
+    {
+        <li>@title</li>
+    }
+</ul>
+
+<hr />
+
+<form method="post">
+    <button type="submit" asp-page-handler="AddProduct">Add WooCommerce Product</button>
+</form>

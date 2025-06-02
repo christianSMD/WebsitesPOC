@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|c:\\users\\christian mdima\\source\\repos\\eridian websites\\services\\woocommerceapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|solutionrelative:services\\woocommerceapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|c:\\users\\christian mdima\\source\\repos\\eridian websites\\data\\nucleusdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|solutionrelative:data\\nucleusdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|c:\\users\\christian mdima\\source\\repos\\eridian websites\\services\\nucleusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|solutionrelative:services\\nucleusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|c:\\users\\christian mdima\\source\\repos\\eridian websites\\controllers\\pushcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|solutionrelative:controllers\\pushcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|c:\\users\\christian mdima\\source\\repos\\eridian websites\\models\\catalogs\\catalogproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|solutionrelative:models\\catalogs\\catalogproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|c:\\users\\christian mdima\\source\\repos\\eridian websites\\pages\\websites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|solutionrelative:pages\\websites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|c:\\users\\christian mdima\\source\\repos\\eridian websites\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|c:\\users\\christian mdima\\source\\repos\\eridian websites\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCC2AF55-14F0-4309-BFDE-C1473D1B4F86}|Eridian Websites.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Websites.cshtml",
+              "DocumentMoniker": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Pages\\Websites.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Websites.cshtml",
+              "ToolTip": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Pages\\Websites.cshtml",
+              "RelativeToolTip": "Pages\\Websites.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T07:48:04.846Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PushController.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Controllers\\PushController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PushController.cs",
+              "ToolTip": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Controllers\\PushController.cs",
+              "RelativeToolTip": "Controllers\\PushController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:40:22.255Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WooCommerceApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Services\\WooCommerceApiService.cs",
+              "RelativeDocumentMoniker": "Services\\WooCommerceApiService.cs",
+              "ToolTip": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Services\\WooCommerceApiService.cs",
+              "RelativeToolTip": "Services\\WooCommerceApiService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:39:27.55Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NucleusService.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Services\\NucleusService.cs",
+              "RelativeDocumentMoniker": "Services\\NucleusService.cs",
+              "ToolTip": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Services\\NucleusService.cs",
+              "RelativeToolTip": "Services\\NucleusService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAIAwwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T08:10:07.927Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CatalogProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Models\\Catalogs\\CatalogProduct.cs",
+              "RelativeDocumentMoniker": "Models\\Catalogs\\CatalogProduct.cs",
+              "ToolTip": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Models\\Catalogs\\CatalogProduct.cs",
+              "RelativeToolTip": "Models\\Catalogs\\CatalogProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T08:46:07.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NucleusDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Data\\NucleusDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\NucleusDbContext.cs",
+              "ToolTip": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\Data\\NucleusDbContext.cs",
+              "RelativeToolTip": "Data\\NucleusDbContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T08:37:28.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T08:15:05.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Christian Mdima\\source\\repos\\Eridian Websites\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T08:15:00.695Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

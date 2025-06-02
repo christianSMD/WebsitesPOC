@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "Eridian_Websites.Controllers.PushController",
+    "Method": "Add",
+    "RelativePath": "api/Push",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "website",
+        "Type": "Eridian_Websites.Models.Website",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Eridian_Websites.Controllers.PushController",
+    "Method": "PushProduct",
+    "RelativePath": "api/Push/product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Eridian_Websites.Controllers.PushRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Eridian_Websites.Controllers.WebsitesController",
+    "Method": "Add",
+    "RelativePath": "api/Websites/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "website",
+        "Type": "Eridian_Websites.Models.Website",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
